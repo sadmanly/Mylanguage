@@ -5,3 +5,4 @@ Makefile
 compile_commands.json
 CMakeCache.txt
 bin/
+settings.json

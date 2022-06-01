@@ -14,5 +14,6 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/src/depend/json ${PROJECT_SOURCE_DIR}/bui
 aux_source_directory(${PROJECT_SOURCE_DIR}/src/main SRC_LIST)
 
 add_executable(run ${SRC_LIST})
+TARGET_LINK_LIBRARIES(run jsons)
 
 
